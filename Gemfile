@@ -12,6 +12,7 @@ gem 'shotgun'
 gem 'json'
 gem 'pry'
 gem 'database_cleaner'
+gem 'faker'
 
 group :test do
   gem 'rspec'

@@ -1,0 +1,5 @@
+recipe_1 = Recipe.create(name: Faker::Food.dish, ingredients: Faker::Food.ingredient, cook_time: rand(20..80))
+recipe_2 = Recipe.create(name: Faker::Food.dish, ingredients: Faker::Food.ingredient, cook_time: rand(20..80))
+recipe_3 = Recipe.create(name: Faker::Food.dish, ingredients: Faker::Food.ingredient, cook_time: rand(20..80))
+recipe_4 = Recipe.create(name: Faker::Food.dish, ingredients: Faker::Food.ingredient, cook_time: rand(20..80))
+recipe_5 = Recipe.create(name: Faker::Food.dish, ingredients: Faker::Food.ingredient, cook_time: rand(20..80))
